@@ -36,6 +36,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
+                <h1>ToDo List</h1>
                 <form className="App" onSubmit={this.onSubmit}>
                     <input value={this.state.term} onChange={this.onChange} />
                     <button>Submit</button>
@@ -46,8 +47,9 @@ export default class App extends Component {
                         border:0.8px, solid;
                         font-size: 12px;
                         padding: 3px;
-                    }`
-                }</style>
+                    }
+                    
+                `}</style>
                 </form>
                 <List items={this.state.items} handleDelete={this.handleDelete.bind(this)}/>
             </div>
