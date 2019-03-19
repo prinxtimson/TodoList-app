@@ -19,7 +19,18 @@ const List = props => (
             )
         }
         </table>
+        <style jsx>{`
+        button{
+            background-color: red;
+            color: white;
+            border:1px, solid;
+            border-radius: 10px;
+            font-size: 12px;
+            padding: 5px;
+        }`
+    }</style>
     </ul>
+    
 )
 
 export default List

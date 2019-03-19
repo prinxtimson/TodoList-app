@@ -39,6 +39,15 @@ export default class App extends Component {
                 <form className="App" onSubmit={this.onSubmit}>
                     <input value={this.state.term} onChange={this.onChange} />
                     <button>Submit</button>
+                <style jsx>{`
+                    button{
+                        background-color: green;
+                        color: white;
+                        border:0.8px, solid;
+                        font-size: 12px;
+                        padding: 3px;
+                    }`
+                }</style>
                 </form>
                 <List items={this.state.items} handleDelete={this.handleDelete.bind(this)}/>
             </div>
