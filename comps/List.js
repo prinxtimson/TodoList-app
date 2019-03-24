@@ -1,7 +1,7 @@
 import React from 'react'
 
 const tableStyle ={
-    width: 200,
+    width: 300,
     padding: 3
 }
 

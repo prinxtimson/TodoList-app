@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 import List from '../comps/List.js'
+import fetch from 'isomorphic-unfetch'
 
 export default class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
             term: '',
-            items: []
+            items: props.data
         }
 
     }
@@ -57,4 +58,13 @@ export default class App extends Component {
     }
 }
 
+App.getInitialProps = async () => {
+    const res = await fetch('http://localhost:3000/api/todo')
+    const data = await res.json()
 
+    console.log(`Show data fetched. Count: ${data.length}`)
+
+    return {
+         data
+    }
+}
