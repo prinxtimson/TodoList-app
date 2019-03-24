@@ -49,7 +49,7 @@ export default class App extends Component {
                         padding: 3px;
                     }
                     
-                `}</style>
+                ` }</style>
                 </form>
                 <List items={this.state.items} handleDelete={this.handleDelete.bind(this)}/>
             </div>
