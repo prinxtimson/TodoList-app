@@ -13,7 +13,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\You are\\todolist-app\\comps\\List.js";
+var _this = undefined;
+
 
 
 var tableStyle = {
@@ -23,63 +24,27 @@ var tableStyle = {
 
 var List = function List(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "jsx-3300407280",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    className: "jsx-3300407280"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
-    className: "jsx-3300407280",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "jsx-3300407280"
   }, props.items.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
-      className: "jsx-3300407280",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
+      className: "jsx-3300407280"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: index,
-      className: "jsx-3300407280",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
+      className: "jsx-3300407280"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", {
       style: tableStyle,
-      className: "jsx-3300407280",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15
-      },
-      __self: this
+      className: "jsx-3300407280"
     }, item), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", {
-      className: "jsx-3300407280",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
+      className: "jsx-3300407280"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-      onClick: props.handleDelete.bind(null, item),
-      className: "jsx-3300407280",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
+      onClick: props.handleDelete.bind(_this, item),
+      className: "jsx-3300407280"
     }, "Delete"))));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3300407280",
-    __self: this
-  }, "button.jsx-3300407280{background-color:red;color:white;border:1px,solid;border-radius:10px;font-size:12px;padding:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcWW91IGFyZVxcdG9kb2xpc3QtYXBwXFxjb21wc1xcTGlzdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQm9CLEFBR2tDLHFCQUNULFlBQ0ssaUJBQ0UsbUJBQ0osZUFDSCxZQUNoQiIsImZpbGUiOiJDOlxcVXNlcnNcXFlvdSBhcmVcXHRvZG9saXN0LWFwcFxcY29tcHNcXExpc3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcblxyXG5jb25zdCB0YWJsZVN0eWxlID17XHJcbiAgICB3aWR0aDogMzAwLFxyXG4gICAgcGFkZGluZzogM1xyXG59XHJcblxyXG5jb25zdCBMaXN0ID0gcHJvcHMgPT4gKFxyXG4gICAgPHVsPlxyXG4gICAgICAgIDx0YWJsZT5cclxuICAgICAgICB7XHJcbiAgICAgICAgICAgIHByb3BzLml0ZW1zLm1hcCgoaXRlbSxpbmRleCkgPT4gXHJcbiAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxpIGtleT17aW5kZXh9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8dGQgc3R5bGU9e3RhYmxlU3R5bGV9PntpdGVtfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD48YnV0dG9uIG9uQ2xpY2s9e3Byb3BzLmhhbmRsZURlbGV0ZS5iaW5kKG51bGwsIGl0ZW0pfSA+RGVsZXRlPC9idXR0b24+PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICA8L2xpPlxyXG4gICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgKVxyXG4gICAgICAgIH1cclxuICAgICAgICA8L3RhYmxlPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBidXR0b257XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDtcclxuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICBib3JkZXI6MXB4LCBzb2xpZDtcclxuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICAgICAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICAgICAgfWBcclxuICAgIH08L3N0eWxlPlxyXG4gICAgPC91bD5cclxuICAgIFxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBMaXN0Il19 */\n/*@ sourceURL=C:\\Users\\You are\\todolist-app\\comps\\List.js */"));
+    id: "3300407280"
+  }, "button.jsx-3300407280{background-color:red;color:white;border:1px,solid;border-radius:10px;font-size:12px;padding:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcWW91IGFyZVxcdG9kb2xpc3QtYXBwXFxjb21wc1xcTGlzdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQm9CLEFBR2tDLHFCQUNULFlBQ0ssaUJBQ0UsbUJBQ0osZUFDSCxZQUNoQiIsImZpbGUiOiJDOlxcVXNlcnNcXFlvdSBhcmVcXHRvZG9saXN0LWFwcFxcY29tcHNcXExpc3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcblxyXG5jb25zdCB0YWJsZVN0eWxlID17XHJcbiAgICB3aWR0aDogMzAwLFxyXG4gICAgcGFkZGluZzogM1xyXG59XHJcblxyXG5jb25zdCBMaXN0ID0gKHByb3BzKSA9PiAoXHJcbiAgICA8dWw+XHJcbiAgICAgICAgPHRhYmxlPlxyXG4gICAgICAgIHtcclxuICAgICAgICAgICAgcHJvcHMuaXRlbXMubWFwKChpdGVtLGluZGV4KSA9PiBcclxuICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXtpbmRleH0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBzdHlsZT17dGFibGVTdHlsZX0+e2l0ZW19PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHRkPjxidXR0b24gb25DbGljaz17cHJvcHMuaGFuZGxlRGVsZXRlLmJpbmQodGhpcywgaXRlbSl9ID5EZWxldGU8L2J1dHRvbj48L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvbGk+XHJcbiAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICApXHJcbiAgICAgICAgfVxyXG4gICAgICAgIDwvdGFibGU+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGJ1dHRvbntcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xyXG4gICAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgIGJvcmRlcjoxcHgsIHNvbGlkO1xyXG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICAgICAgICAgIHBhZGRpbmc6IDVweDtcclxuICAgICAgICB9YFxyXG4gICAgfTwvc3R5bGU+XHJcbiAgICA8L3VsPlxyXG4gICAgXHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IExpc3QiXX0= */\n/*@ sourceURL=C:\\Users\\You are\\todolist-app\\comps\\List.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (List);
@@ -11371,6 +11336,16 @@ function (_Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(App).call(this, props));
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "handleDelete", function (item) {
+      var newItems = _this.state.items.filter(function (_item) {
+        return _item != item;
+      });
+
+      _this.setState({
+        items: newItems
+      });
+    });
+
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_7__["default"])(_this), "onChange", function (event) {
       _this.setState({
         term: event.target.value
@@ -11394,16 +11369,6 @@ function (_Component) {
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(App, [{
-    key: "handleDelete",
-    value: function handleDelete(item) {
-      var newItems = this.state.items.filter(function (_item) {
-        return _item != item;
-      });
-      this.setState({
-        items: newItems
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("h1", null, "ToDo List"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("form", {
@@ -11417,9 +11382,9 @@ function (_Component) {
         className: "jsx-546809315"
       }, "Submit"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_10___default.a, {
         id: "546809315"
-      }, "button.jsx-546809315{background-color:green;color:white;border:0.8px,solid;font-size:12px;padding:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcWW91IGFyZVxcdG9kb2xpc3QtYXBwXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMkM0QixBQUdnRCx1QkFDWCxZQUNPLG1CQUNKLGVBQ0gsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxZb3UgYXJlXFx0b2RvbGlzdC1hcHBcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGlzdCBmcm9tICcuLi9jb21wcy9MaXN0LmpzJ1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcclxuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XHJcbiAgICAgICAgc3VwZXIocHJvcHMpXHJcbiAgICAgICAgdGhpcy5zdGF0ZSA9IHtcclxuICAgICAgICAgICAgdGVybTogJycsXHJcbiAgICAgICAgICAgIGl0ZW1zOiBwcm9wcy5kYXRhXHJcbiAgICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbiAgICBoYW5kbGVEZWxldGUoaXRlbSl7XHJcbiAgICAgICAgbGV0IG5ld0l0ZW1zID0gdGhpcy5zdGF0ZS5pdGVtcy5maWx0ZXIoKF9pdGVtKSA9PntcclxuICAgICAgICAgICAgcmV0dXJuIF9pdGVtICE9IGl0ZW1cclxuICAgICAgICB9KVxyXG4gICAgICAgIHRoaXMuc2V0U3RhdGUoeyBpdGVtczogbmV3SXRlbXN9KVxyXG4gICAgfVxyXG5cclxuICAgIG9uQ2hhbmdlID0gKGV2ZW50KSA9PntcclxuICAgICAgICB0aGlzLnNldFN0YXRlKHtcclxuICAgICAgICAgICAgdGVybTogZXZlbnQudGFyZ2V0LnZhbHVlXHJcbiAgICAgICAgfSlcclxuICAgIH1cclxuXHJcbiAgICBvblN1Ym1pdCA9IChldmVudCkgPT4ge1xyXG4gICAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7XHJcbiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XHJcbiAgICAgICAgICAgIHRlcm06ICcnLFxyXG4gICAgICAgICAgICBpdGVtczogWy4uLnRoaXMuc3RhdGUuaXRlbXMsIHRoaXMuc3RhdGUudGVybV1cclxuICAgICAgICB9KVxyXG4gICAgfVxyXG5cclxuICAgIHJlbmRlcigpIHtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgPGgxPlRvRG8gTGlzdDwvaDE+XHJcbiAgICAgICAgICAgICAgICA8Zm9ybSBjbGFzc05hbWU9XCJBcHBcIiBvblN1Ym1pdD17dGhpcy5vblN1Ym1pdH0+XHJcbiAgICAgICAgICAgICAgICAgICAgPGlucHV0IHZhbHVlPXt0aGlzLnN0YXRlLnRlcm19IG9uQ2hhbmdlPXt0aGlzLm9uQ2hhbmdlfSAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24+U3VibWl0PC9idXR0b24+XHJcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgICAgICAgICAgYnV0dG9ue1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6MC44cHgsIHNvbGlkO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDNweDtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICBgIH08L3N0eWxlPlxyXG4gICAgICAgICAgICAgICAgPC9mb3JtPlxyXG4gICAgICAgICAgICAgICAgPExpc3QgaXRlbXM9e3RoaXMuc3RhdGUuaXRlbXN9IGhhbmRsZURlbGV0ZT17dGhpcy5oYW5kbGVEZWxldGUuYmluZCh0aGlzKX0vPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICApXHJcbiAgICB9XHJcbn1cclxuXHJcbkFwcC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyAoKSA9PiB7XHJcbiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCgnaHR0cDovL2xvY2FsaG9zdDozMDAwL2FwaS90b2RvJylcclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpXHJcblxyXG4gICAgY29uc29sZS5sb2coYFNob3cgZGF0YSBmZXRjaGVkLiBDb3VudDogJHtkYXRhLmxlbmd0aH1gKVxyXG5cclxuICAgIHJldHVybiB7XHJcbiAgICAgICAgIGRhdGFcclxuICAgIH1cclxufVxyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\You are\\todolist-app\\pages\\index.js */")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_comps_List_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, "button.jsx-546809315{background-color:green;color:white;border:0.8px,solid;font-size:12px;padding:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcWW91IGFyZVxcdG9kb2xpc3QtYXBwXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMkM0QixBQUdnRCx1QkFDWCxZQUNPLG1CQUNKLGVBQ0gsWUFDaEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxZb3UgYXJlXFx0b2RvbGlzdC1hcHBcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGlzdCBmcm9tICcuLi9jb21wcy9MaXN0LmpzJ1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcclxuICAgIGNvbnN0cnVjdG9yKHByb3BzKSB7XHJcbiAgICAgICAgc3VwZXIocHJvcHMpXHJcbiAgICAgICAgdGhpcy5zdGF0ZSA9IHtcclxuICAgICAgICAgICAgdGVybTogJycsXHJcbiAgICAgICAgICAgIGl0ZW1zOiBwcm9wcy5kYXRhXHJcbiAgICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbiAgICBoYW5kbGVEZWxldGUgPSAoaXRlbSkgPT4ge1xyXG4gICAgICAgIGxldCBuZXdJdGVtcyA9IHRoaXMuc3RhdGUuaXRlbXMuZmlsdGVyKChfaXRlbSkgPT57XHJcbiAgICAgICAgICAgIHJldHVybiBfaXRlbSAhPSBpdGVtXHJcbiAgICAgICAgfSlcclxuICAgICAgICB0aGlzLnNldFN0YXRlKHsgaXRlbXM6IG5ld0l0ZW1zfSlcclxuICAgIH1cclxuXHJcbiAgICBvbkNoYW5nZSA9IChldmVudCkgPT57XHJcbiAgICAgICAgdGhpcy5zZXRTdGF0ZSh7XHJcbiAgICAgICAgICAgIHRlcm06IGV2ZW50LnRhcmdldC52YWx1ZVxyXG4gICAgICAgIH0pXHJcbiAgICB9XHJcblxyXG4gICAgb25TdWJtaXQgPSAoZXZlbnQpID0+IHtcclxuICAgICAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpO1xyXG4gICAgICAgIHRoaXMuc2V0U3RhdGUoe1xyXG4gICAgICAgICAgICB0ZXJtOiAnJyxcclxuICAgICAgICAgICAgaXRlbXM6IFsuLi50aGlzLnN0YXRlLml0ZW1zLCB0aGlzLnN0YXRlLnRlcm1dXHJcbiAgICAgICAgfSlcclxuICAgIH1cclxuXHJcbiAgICByZW5kZXIoKSB7XHJcbiAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgIDxoMT5Ub0RvIExpc3Q8L2gxPlxyXG4gICAgICAgICAgICAgICAgPGZvcm0gY2xhc3NOYW1lPVwiQXBwXCIgb25TdWJtaXQ9e3RoaXMub25TdWJtaXR9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxpbnB1dCB2YWx1ZT17dGhpcy5zdGF0ZS50ZXJtfSBvbkNoYW5nZT17dGhpcy5vbkNoYW5nZX0gLz5cclxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uPlN1Ym1pdDwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAgICAgICAgIGJ1dHRvbntcclxuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOjAuOHB4LCBzb2xpZDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAzcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgYCB9PC9zdHlsZT5cclxuICAgICAgICAgICAgICAgIDwvZm9ybT5cclxuICAgICAgICAgICAgICAgIDxMaXN0IGl0ZW1zPXt0aGlzLnN0YXRlLml0ZW1zfSBoYW5kbGVEZWxldGU9e3RoaXMuaGFuZGxlRGVsZXRlfS8+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIClcclxuICAgIH1cclxufVxyXG5cclxuQXBwLmdldEluaXRpYWxQcm9wcyA9IGFzeW5jICgpID0+IHtcclxuICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCdodHRwOi8vbG9jYWxob3N0OjMwMDAvYXBpL3RvZG8nKVxyXG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKClcclxuXHJcbiAgICBjb25zb2xlLmxvZyhgU2hvdyBkYXRhIGZldGNoZWQuIENvdW50OiAke2RhdGEubGVuZ3RofWApXHJcblxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgICAgZGF0YVxyXG4gICAgfVxyXG59XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\You are\\todolist-app\\pages\\index.js */")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_comps_List_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
         items: this.state.items,
-        handleDelete: this.handleDelete.bind(this)
+        handleDelete: this.handleDelete
       }));
     }
   }]);

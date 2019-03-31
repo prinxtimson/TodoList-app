@@ -5,7 +5,7 @@ const tableStyle ={
     padding: 3
 }
 
-const List = props => (
+const List = (props) => (
     <ul>
         <table>
         {
@@ -13,7 +13,7 @@ const List = props => (
                 <tr>
                     <li key={index}>
                         <td style={tableStyle}>{item}</td>
-                        <td><button onClick={props.handleDelete.bind(null, item)} >Delete</button></td>
+                        <td><button onClick={props.handleDelete.bind(this, item)} >Delete</button></td>
                     </li>
                 </tr>
             )

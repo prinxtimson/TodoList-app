@@ -13,7 +13,7 @@ export default class App extends Component {
 
     }
 
-    handleDelete(item){
+    handleDelete = (item) => {
         let newItems = this.state.items.filter((_item) =>{
             return _item != item
         })
@@ -52,7 +52,7 @@ export default class App extends Component {
                     
                 ` }</style>
                 </form>
-                <List items={this.state.items} handleDelete={this.handleDelete.bind(this)}/>
+                <List items={this.state.items} handleDelete={this.handleDelete}/>
             </div>
         )
     }
